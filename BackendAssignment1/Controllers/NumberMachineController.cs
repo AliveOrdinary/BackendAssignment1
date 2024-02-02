@@ -9,9 +9,22 @@ namespace BackendAssignment1.Controllers
 {
     public class NumberMachineController : ApiController
     {
+        /// <summary>
+        /// 
+        /// This method takes an integer as input and returns the result of the following operations:
+        /// 
+        /// 1. Cube the input integer
+        /// 2. Divide the result by the input integer
+        /// 3. Add the input integer to the result
+        /// 4. Multiply the result by the input integer
+        /// 
+        /// </summary>
+        /// 
+        /// <param name="id">Integer to perform the arithemetic operations</param>
+        /// <returns>The result after the arithemetic operations </returns>
+        /// 
         // GET api/NumberMachine/{id}
-        // This method takes an integer as input and returns the result of the following operations:
-        
+
         public int GET (int id)
         {
             // If the input integer is 0, return 0

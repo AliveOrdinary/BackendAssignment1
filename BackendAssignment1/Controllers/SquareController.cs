@@ -9,6 +9,16 @@ namespace BackendAssignment1.Controllers
 {
     public class SquareController : ApiController
     {
+        /// <summary>
+        /// 
+        /// A webAPI method that takes an integer as input and returns the square of the integer.
+        /// 
+        /// </summary>
+        /// 
+        /// <param name="id">the integer to get the square of.</param>
+        /// 
+        /// <returns>The square of the provided integer.</returns>
+        /// 
         // GET api/Square/{id}
         // This method takes an integer as input and returns the square of the integer.
         public int GET(int id)
