@@ -20,7 +20,12 @@ namespace BackendAssignment1.Controllers
         /// <returns>The square of the provided integer.</returns>
         /// 
         // GET api/Square/{id}
-        // This method takes an integer as input and returns the square of the integer.
+        
+        /// <example>
+        /// 
+        /// GET api/Square/5 -> 25
+        /// 
+        /// </example>
         public int GET(int id)
         {
             // Square the input integer

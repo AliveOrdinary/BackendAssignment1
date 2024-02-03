@@ -19,6 +19,13 @@ namespace BackendAssignment1.Controllers
         /// 
         /// <returns>The result after adding 10 to the input integer</returns>
         /// 
+
+        /// <example>
+        /// 
+        /// GET api/AddTen/21 -> 31
+        /// 
+        /// </example>
+  
         // GET api/AddTen/{id}
         public int GET(int id)
         {

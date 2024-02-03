@@ -22,6 +22,12 @@ namespace BackendAssignment1.Controllers
             /// <returns>The cost of hosting the website for the given number of fortnights</returns>
             /// 
 
+            /// <example>
+            /// 
+            /// GET api/HostingCost/0 -> "1 fortnights at $5.50/FN = $5.5 CAD HST 13% = $0.72 CAD Total = $6.22 CAD"
+            /// 
+            /// </example>
+
             //GET api/HostingCost/{id}
 
 

@@ -23,6 +23,14 @@ namespace BackendAssignment1.Controllers
         /// <param name="id">Integer to perform the arithemetic operations</param>
         /// <returns>The result after the arithemetic operations </returns>
         /// 
+
+        ///<example>
+        ///
+        /// GET api/NumberMachine/5 -> 150
+        /// 
+        ///</example>
+       
+
         // GET api/NumberMachine/{id}
 
         public int GET (int id)

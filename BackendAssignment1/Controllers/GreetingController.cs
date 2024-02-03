@@ -18,14 +18,18 @@ namespace BackendAssignment1.Controllers
         /// <returns>string "Hello World!!"</returns>
         /// 
 
+        ///<example>
+        ///
+        /// GET api/Greeting -> "Hello World!!"
+        /// 
+        ///</example>
 
         // GET api/Greeting
-        // This method returns a string "Hello World!!".
         public string GET()
         {
             return "Hello World!!";
         }
-        // GET api/Greeting/{id}
+
 
         /// <summary>
         /// 
@@ -38,6 +42,13 @@ namespace BackendAssignment1.Controllers
         /// <returns>A string greeting to the number of people</returns>
         /// 
 
+        ///<example>
+        ///              
+        /// GET api/Greeting/5 -> "Greeting to 5 people!"
+        /// 
+        ///</example>
+
+        // GET api/Greeting/{id}
         public string GET(int id)
         {
             string output = $"Greeting to {id} people!";
